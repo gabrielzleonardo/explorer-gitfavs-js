@@ -1,7 +1,7 @@
 
 #  GitFav
 
-Esse projeto foi realizado  em um desafio proposto no curso Explorer da [RocketSeat](https://app.rocketseat.com.br/). a aplicação consiste em um site para armazenar seus usuários di GitHub favoritos.
+Esse projeto foi realizado  em um desafio proposto no curso Explorer da [RocketSeat](https://app.rocketseat.com.br/). A aplicação consiste em um site para armazenar seus usuários favoritos do GitHub .
 
 
 ## 🔗 Links
