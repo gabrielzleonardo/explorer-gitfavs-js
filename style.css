@@ -121,9 +121,17 @@ tbody tr + tr {
   border-top: solid 1px #4a808c;
 }
 
-tbody {
-  max-height: 10px;
+table tbody {
+  display: block;
+  max-height: 546px;
   overflow-y: auto;
+}
+
+table thead,
+table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
 
 table * {
@@ -228,6 +236,20 @@ tfoot td p {
   font-size: 4rem;
 
   color: #4e5455;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 120px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a808c;
+  border-radius: 10px;
 }
 
 @media (max-width: 790px) {
