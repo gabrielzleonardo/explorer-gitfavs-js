@@ -124,7 +124,11 @@ tbody tr + tr {
 table tbody {
   display: block;
   max-height: 546px;
-  overflow-y: auto;
+  overflow-y: overlay;
+}
+
+table {
+  overflow: hidden;
 }
 
 table thead,
@@ -153,10 +157,6 @@ table th:first-child {
 table th:last-child {
   text-align: center;
   border-top-right-radius: 1.2rem;
-}
-
-tbody tr:last-child {
-  background-color: red;
 }
 
 table td:nth-child(2),

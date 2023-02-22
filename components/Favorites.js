@@ -78,10 +78,9 @@ export class FavoritesView extends Favorites {
   };
 
   update = () => {
-    console.log(this.users);
     this.removeAllTr();
-    if(this.users.length === 0) {
-      this.showEmptyMessage()
+    if (this.users.length === 0) {
+      this.showEmptyMessage();
     } else {
       this.root.querySelector(".empty").classList.add("hidden");
     }
